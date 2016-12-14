@@ -1,0 +1,124 @@
+.disabled{
+    opacity: 0.5;   
+}
+.disabled_btn{
+    color: lightslategray;   
+}
+.my_f2{
+    font-size: small;
+}
+img{
+    height: 100%;
+}
+.block_cont{
+    overflow: auto;
+}
+.block{
+    float:left;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    margin:10px;
+    padding: 5px 20px 20px 20px; 
+    cursor:  default;
+}
+.block:hover{
+    border-width: 4px;
+    margin:8px;
+}
+.block_head{
+    margin-bottom: 10px;
+    width:100%;
+    font-size: large;
+    font-weight: bold;
+}
+.sub_block{
+    min-height: 20px;
+    min-width: 50px;
+    float:left;
+    border-radius: 5px;
+    border: 1px solid #73AD21;
+    margin:5px;
+    padding: 10px 5px 10px 5px; 
+}
+.sub_block_head{
+    margin-bottom: 5px;
+    width:100%;
+    font-size: medium;
+    font-weight: bold;
+}
+.sub_block1{
+    min-height: 20px;
+    min-width: 50px;
+    border-radius: 5px;
+    border: 1px solid #73AD21;
+    margin:5px;
+    padding: 10px 5px 10px 5px; 
+    text-align:  center;
+}
+.block_active{
+    border-color: blue;
+}
+.interactive_block{
+    border-width: 2px;
+}
+.interactive_block:hover{
+    border-width: 3px;
+    padding:2px;
+
+}
+.toggle_cont{
+    overflow: auto;
+    border: 1px dashed #73AD21;
+    padding: 3px;
+    margin:5px;
+}
+.toggleable{
+    min-height: 20px;
+    min-width: 50px;
+    border-radius: 3px;
+    border: 2px solid #73AD21;
+    margin:3px;
+    padding: 10px 3px 10px 3px;
+    opacity: 0.3;
+    text-align:  center;
+}
+.toggleable:hover{
+    border-width: 3px;
+    padding: 9px 2px 9px 2px;
+    cursor:  default;
+}
+.toggle_active{
+    opacity: 1.0;
+}
+.mousedown{
+    background-color:  blanchedalmond;
+}
+.fl{
+    float:left;
+}
+.editable:hover{
+    color:blue;
+}
+.btn_cont{
+    height: 100px;
+}
+.commandB{
+    position: fixed;
+    width:100px;
+    height:50px;
+}
+.img_head{
+    float: left;
+    padding-top: 25px;
+    margin-right: 10px;
+}
+.active_element{
+    background-color: lightgreen;
+}
+.help_b{
+    width:98%;
+    min-height: 100px;
+}
+.tbl_container td, .tbl_container th{
+    font-size: 25px;
+}
